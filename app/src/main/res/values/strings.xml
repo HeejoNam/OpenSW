@@ -14,4 +14,9 @@
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
     <string name="title_activity_maps">Map</string>
     <string name="check_out">check_out</string>
+    <string name="text1">피보호자와의 허용 최대 거리를 설정하여 주십시오.</string>
+    <string name="text2">양수를 입력해주세요</string>
+    <string name="km">km</string>
+    <string name="DISTANCE"></string>
+    <string name="button2">Button</string>
 </resources>
