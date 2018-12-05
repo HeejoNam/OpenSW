@@ -14,7 +14,7 @@ import io.google.checkout.MapsActivity;
 public class DistanceActivity extends AppCompatActivity {
     public static final String DISTANCE = "com.google.firebase.codelab.friendlychat.DISTANCE";
 
-    TextView distance_button;
+    EditText distance_button;
     Button button;
     String dist;
     int distance;
@@ -24,14 +24,13 @@ public class DistanceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dist);
 
-        distance_button=(TextView) findViewById(R.id.textView3);
-        distance_button.setText("0");
+        distance_button=(EditText) findViewById(R.id.editText);
         button = (Button) findViewById(R.id.button3);
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(DistanceActivity.this, MapsActivity.class);
-                dist = "0";
+                dist = distance_button.getText().toString();
                 intent.putExtra(DISTANCE, dist);
                 startActivity(intent);
             }

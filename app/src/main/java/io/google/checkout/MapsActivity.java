@@ -89,7 +89,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             @Override
             public void onClick(View view) {
                 if (between_distance > distance) {
-                    Toast.makeText(getApplicationContext(), String.valueOf(latitude) + "\t" + String.valueOf(longitude), Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "상대방과의 거리가 떨어졌습니다.",Toast.LENGTH_LONG).show();
+                    //Toast.makeText(getApplicationContext(), String.valueOf(latitude) + "\t" + String.valueOf(longitude), Toast.LENGTH_LONG).show();
                 }
             }
         });
