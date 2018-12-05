@@ -13,7 +13,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
-        tools:layout_editor_absoluteX="163dp"
+        android:text="피보호자와의 허용 최대 거리를 설정하여 주십시오."
+        tools:layout_editor_absoluteX="46dp"
         tools:layout_editor_absoluteY="39dp" />
 
     <Button
@@ -43,5 +44,6 @@
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632" />
 </android.support.constraint.ConstraintLayout>
