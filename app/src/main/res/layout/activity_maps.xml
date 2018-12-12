@@ -3,11 +3,13 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent">
 
-    <Button android:id="@+id/checkout_button"
+    <Button
+        android:id="@+id/checkout_button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/check_out"
-        android:onClick="checkOut"/>
+        android:layout_height="40dp"
+        android:background="@color/colorPurple"
+        android:onClick="checkOut"
+        android:text="@string/check_out" />
 
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
