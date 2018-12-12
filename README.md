@@ -12,3 +12,5 @@
 - 박지연 (bgy1060): 사용자 인터페이스 제작
 - 주수아 (8Orangejuice8): 사용자 인터페이스 제작
 
+## 라이센스
+This project is licensed under the terms of the MIT license.
