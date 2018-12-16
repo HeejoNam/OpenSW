@@ -4,7 +4,7 @@
 ## 앱 설치 방법 및 사용법
 1. 안드로이드 기기에 [APK](https://github.com/HeejoNam/OpenSW/blob/master/app-debug.apk)다운로드
 ![Alt text](./img/download.jpg)
-2. 기기에 APK 파일 설치
+2. 기기에 애플리케이션 설치
 
 3. 애플리케이션 위치 정보 권한 허용 설정
 
@@ -75,6 +75,13 @@ button.setOnClickListener(new View.OnClickListener() {
 });
 ```
 보호자와 피보호자의 위도,경도를 이용하여 두 사용자간의 거리를 측정하고, 허용 거리를 넘으면 "상대방과 허용 거리 이상으로 멀어졌습니다." 라는 토스트가 뜬다.
+
+
+### 4. 피보호자의 정보 입력받기
+
+
+
+피보호자의 실시간 위치 정보를 받아온다. 
 
 ## 개발자 정보
 - 남희조 (HeejoNam): 지도 api 연동 및 거리 측정 알고리즘 구현 
