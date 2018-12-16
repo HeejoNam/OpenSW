@@ -4,8 +4,12 @@
 ## 앱 설치 방법 및 사용법
 1. 안드로이드 기기에 [APK](https://github.com/HeejoNam/OpenSW/blob/master/app-debug.apk)다운로드
 ![Alt text](./img/download.jpg)
-2. 
-3. 
+2. 기기에 APK 파일 설치
+
+3. 애플리케이션 위치 정보 권한 허용 설정
+
+4. 계정 선택/추가
+
 
 ## 주요 기능
 ### 1. 보호자와 피보호자의 허용 거리 설정 
