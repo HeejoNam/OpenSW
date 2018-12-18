@@ -297,7 +297,7 @@ public class MainActivity extends AppCompatActivity
         mapButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, DistanceActivity.class);
+                Intent intent = new Intent(MainActivity.this, InfoActivity.class);
                 startActivity(intent);
             }
         });

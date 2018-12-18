@@ -78,18 +78,26 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         // Get the Intent that started this activity and extract the string   
         Intent intent = getIntent();
         String message = intent.getStringExtra(DistanceActivity.DISTANCE);
+        String message2 = intent.getStringExtra(DistanceActivity.LAT);
+        String message3 = intent.getStringExtra(DistanceActivity.LONG);
+        String message4 = intent.getStringExtra(DistanceActivity.NAME);
+
         final int distance = Integer.parseInt(message);
+        final String name = message4;
+        float p_latitude = Float.parseFloat(message2);
+        float p_longitude = Float.parseFloat(message3);
+
         ward = new Location("point W");
-        ward.setLatitude(37.566433);
-        ward.setLongitude(126.948413);
+        ward.setLatitude(p_latitude);
+        ward.setLongitude(p_longitude);
         between_distance = ward.distanceTo(locationB);
 
         final Button button = (Button) findViewById(R.id.checkout_button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (between_distance > distance) {
-                    Toast.makeText(getApplicationContext(), "상대방과 허용 거리 이상으로 멀어졌습니다.",Toast.LENGTH_LONG).show();
+                if (between_distance/1000 > distance) {
+                    Toast.makeText(getApplicationContext(), name+" 님과 허용 거리 이상으로 멀어졌습니다.",Toast.LENGTH_LONG).show();
                     //Toast.makeText(getApplicationContext(), String.valueOf(latitude) + "\t" + String.valueOf(longitude), Toast.LENGTH_LONG).show();
                 }
             }
