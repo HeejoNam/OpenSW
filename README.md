@@ -1,9 +1,13 @@
 # 모두의 톡 
 ## 피보호자의 안전 확보를 위한 안드로이드 메신저 어플
 > 모두의 톡은 피보호자의 응급 상황에 보호자가 신속하게 대처할 수 있는 안드로이드 메신저 어플입니다.
+## 시연 동영상
+https://youtu.be/Kr_8GXlpRSo
+
 ## 앱 설치 방법 및 사용법
 #### 1. 안드로이드 기기에 [APK](https://github.com/HeejoNam/OpenSW/blob/master/app-debug.apk)다운로드
 ![Alt text](./img/download.jpg)
+
 #### 2. 기기에 애플리케이션 설치
 <div>
 <img src="./img/install1.jpeg" width="200">
