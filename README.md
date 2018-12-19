@@ -96,7 +96,7 @@ Google Place API 와 Firebase 를 연동하여 사용자의 실시간 위치를 
             @Override
             public void onClick(View view) {
                 if (between_distance/1000 > distance) {
-                    Toast.makeText(getApplicationContext(), name+" 님과 허용 거리 이상으로 멀어졌습니다.",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), " 과 허용 거리 이상으로 멀어졌습니다.",Toast.LENGTH_LONG).show();
                     //Toast.makeText(getApplicationContext(), String.valueOf(latitude) + "\t" + String.valueOf(longitude), Toast.LENGTH_LONG).show();
                 }
             }
